@@ -77,7 +77,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- Hey There, I'm [Goku](https://telegra.ph/file/0e7ab643f949630fbb63c.jpg)
+ Hey There, I'm [Bakugo] (https://telegra.ph/file/06f9ec60ae2902124161f.jpg)
 I Am An Anime Themed Group Management Bot.
 Built By Weebs For Weebs, I Specialize In Managing Anime Eccentric Communities.
 """
@@ -85,7 +85,7 @@ Built By Weebs For Weebs, I Specialize In Managing Anime Eccentric Communities.
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Add Me", url="t.me/GokuxRobot?startgroup=true"),    
+            text="➕ Add Me", url="t.me/katsukibakugoxrobot?startgroup=true"),    
         InlineKeyboardButton(
               text="⚙️ Help", callback_data="help_back"),   
    ],
@@ -93,12 +93,12 @@ buttons = [
        InlineKeyboardButton(
             text="🌐 X-Force", url="https://t.me/XForceSquad"),        
           InlineKeyboardButton(
-            text="📋 Updates", url="https://t.me/XForceBots"),
+            text="📋 Updates", url="https://t.me/katsukibakugosupportchat"),
     
    ],
     [      
           InlineKeyboardButton(
-            text="🗣️ Support", url="https://t.me/XForceSupport"),
+            text="🗣️ Support", url="https://t.me/katsukibakugosupportchat"),
           InlineKeyboardButton(
             text="📁 Source", url="https://github.com/STBxD/GokuXForceRobot",
     
@@ -107,7 +107,7 @@ buttons = [
 ] 
 
 HELP_STRINGS = """
-Hey there, I'm Son Goku!
+Hey there, I'm Katsuki Bakugo!
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
